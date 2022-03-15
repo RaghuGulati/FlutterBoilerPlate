@@ -33,5 +33,5 @@ ThemeData loginTheme = ThemeData(
             minimumSize: const Size(500, 50),
           ),
         ),
-        textTheme: TextTheme(bodyText2: TextStyle(fontSize: 40, color: Colors.black )),
+        textTheme: TextTheme(bodyText2: TextStyle(fontSize: 25, color: Colors.black )),
       );

@@ -49,7 +49,8 @@ class _LoginState extends State<Login> {
                   child: Padding(
                     padding: const EdgeInsets.all(12.0),
                     child: Text(
-                      'Not a member.....Register Yourself First',
+                      'Not a member..... \nRegister Yourself First',
+                      textAlign: TextAlign.center,
                       style: loginTheme.textTheme.bodyText2,
                     ),
                   )),

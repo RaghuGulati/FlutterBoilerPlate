@@ -49,7 +49,8 @@ class _RegisterState extends State<Register> {
                   child: Padding(
                     padding: const EdgeInsets.all(12.0),
                     child: Text(
-                      'Already a member.....Go to login page',
+                      'Already a member.....\nGo to login page',
+                      textAlign: TextAlign.center,
                       style: loginTheme.textTheme.bodyText2,
                     ),
                   )),
